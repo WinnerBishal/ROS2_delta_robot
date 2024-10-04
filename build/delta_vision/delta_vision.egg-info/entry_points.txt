@@ -1,5 +1,0 @@
-[console_scripts]
-camera_publisher = delta_vision.camera_publisher:main
-camera_subscriber = delta_vision.camera_subscriber:main
-object_tracker = delta_vision.object_tracker:main
-
