@@ -1,0 +1,21 @@
+[1.845s] Invoking command in '/home/winner_bishal/ros2_delta_ws/build/delta_vision': PYTHONPATH=/home/winner_bishal/ros2_delta_ws/build/delta_vision/prefix_override:/home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/winner_bishal/ros2_delta_ws/build/delta_vision/build --no-deps install_data
+[2.382s] running develop
+[2.680s] running egg_info
+[2.681s] writing delta_vision.egg-info/PKG-INFO
+[2.681s] writing dependency_links to delta_vision.egg-info/dependency_links.txt
+[2.681s] writing entry points to delta_vision.egg-info/entry_points.txt
+[2.682s] writing requirements to delta_vision.egg-info/requires.txt
+[2.682s] writing top-level names to delta_vision.egg-info/top_level.txt
+[2.686s] reading manifest file 'delta_vision.egg-info/SOURCES.txt'
+[2.693s] writing manifest file 'delta_vision.egg-info/SOURCES.txt'
+[2.696s] running build_ext
+[2.697s] Creating /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta-vision.egg-link (link to .)
+[2.699s] Installing camera_publisher script to /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/delta_vision
+[2.699s] Installing camera_subscriber script to /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/delta_vision
+[2.700s] 
+[2.700s] Installed /home/winner_bishal/ros2_delta_ws/build/delta_vision
+[2.700s] running install_data
+[2.700s] copying package.xml -> /home/winner_bishal/ros2_delta_ws/install/delta_vision/share/delta_vision
+[2.701s] creating /home/winner_bishal/ros2_delta_ws/install/delta_vision/share/delta_vision/resource
+[2.701s] copying resource/best.pt -> /home/winner_bishal/ros2_delta_ws/install/delta_vision/share/delta_vision/resource
+[2.970s] Invoked command in '/home/winner_bishal/ros2_delta_ws/build/delta_vision' returned '0': PYTHONPATH=/home/winner_bishal/ros2_delta_ws/build/delta_vision/prefix_override:/home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/winner_bishal/ros2_delta_ws/build/delta_vision/build --no-deps install_data

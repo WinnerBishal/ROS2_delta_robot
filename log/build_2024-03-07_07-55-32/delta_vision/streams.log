@@ -1,0 +1,31 @@
+[1.184s] Invoking command in '/home/winner_bishal/ros2_delta_ws/src/delta_vision': PYTHONPATH=/home/winner_bishal/ros2_delta_ws/build/delta_vision/prefix_override:/home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/delta_vision build --build-base /home/winner_bishal/ros2_delta_ws/build/delta_vision/build install --record /home/winner_bishal/ros2_delta_ws/build/delta_vision/install.log --single-version-externally-managed
+[1.519s] running egg_info
+[1.520s] writing ../../build/delta_vision/delta_vision.egg-info/PKG-INFO
+[1.529s] writing dependency_links to ../../build/delta_vision/delta_vision.egg-info/dependency_links.txt
+[1.530s] writing entry points to ../../build/delta_vision/delta_vision.egg-info/entry_points.txt
+[1.530s] writing requirements to ../../build/delta_vision/delta_vision.egg-info/requires.txt
+[1.530s] writing top-level names to ../../build/delta_vision/delta_vision.egg-info/top_level.txt
+[1.534s] reading manifest file '../../build/delta_vision/delta_vision.egg-info/SOURCES.txt'
+[1.535s] writing manifest file '../../build/delta_vision/delta_vision.egg-info/SOURCES.txt'
+[1.535s] running build
+[1.535s] running build_py
+[1.536s] copying delta_vision/camera_publisher.py -> /home/winner_bishal/ros2_delta_ws/build/delta_vision/build/lib/delta_vision
+[1.536s] copying delta_vision/camera_subscriber.py -> /home/winner_bishal/ros2_delta_ws/build/delta_vision/build/lib/delta_vision
+[1.536s] copying delta_vision/example_node.py -> /home/winner_bishal/ros2_delta_ws/build/delta_vision/build/lib/delta_vision
+[1.537s] running install
+[1.537s] running install_lib
+[1.538s] copying /home/winner_bishal/ros2_delta_ws/build/delta_vision/build/lib/delta_vision/camera_publisher.py -> /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta_vision
+[1.539s] copying /home/winner_bishal/ros2_delta_ws/build/delta_vision/build/lib/delta_vision/camera_subscriber.py -> /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta_vision
+[1.539s] copying /home/winner_bishal/ros2_delta_ws/build/delta_vision/build/lib/delta_vision/example_node.py -> /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta_vision
+[1.540s] byte-compiling /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta_vision/camera_publisher.py to camera_publisher.cpython-310.pyc
+[1.541s] byte-compiling /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta_vision/camera_subscriber.py to camera_subscriber.cpython-310.pyc
+[1.541s] byte-compiling /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta_vision/example_node.py to example_node.cpython-310.pyc
+[1.542s] running install_data
+[1.543s] running install_egg_info
+[1.545s] removing '/home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[1.545s] Copying ../../build/delta_vision/delta_vision.egg-info to /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta_vision-0.0.0-py3.10.egg-info
+[1.546s] running install_scripts
+[1.577s] Installing camera_publisher script to /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/delta_vision
+[1.577s] Installing camera_subscriber script to /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/delta_vision
+[1.577s] writing list of installed files to '/home/winner_bishal/ros2_delta_ws/build/delta_vision/install.log'
+[1.614s] Invoked command in '/home/winner_bishal/ros2_delta_ws/src/delta_vision' returned '0': PYTHONPATH=/home/winner_bishal/ros2_delta_ws/build/delta_vision/prefix_override:/home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/delta_vision build --build-base /home/winner_bishal/ros2_delta_ws/build/delta_vision/build install --record /home/winner_bishal/ros2_delta_ws/build/delta_vision/install.log --single-version-externally-managed

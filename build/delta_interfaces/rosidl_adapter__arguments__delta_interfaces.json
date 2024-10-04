@@ -1,0 +1,7 @@
+{
+  "package_name": "delta_interfaces",
+  "non_idl_tuples": [
+    "/home/winner_bishal/ros2_delta_ws/src/delta_interfaces:msg/Detection.msg",
+    "/home/winner_bishal/ros2_delta_ws/src/delta_interfaces:msg/AllDetections.msg"
+  ]
+}

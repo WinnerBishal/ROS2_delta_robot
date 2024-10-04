@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing delta_vision.egg-info/PKG-INFO
+writing dependency_links to delta_vision.egg-info/dependency_links.txt
+writing entry points to delta_vision.egg-info/entry_points.txt
+writing requirements to delta_vision.egg-info/requires.txt
+writing top-level names to delta_vision.egg-info/top_level.txt
+reading manifest file 'delta_vision.egg-info/SOURCES.txt'
+writing manifest file 'delta_vision.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages/delta-vision.egg-link (link to .)
+Installing camera_publisher script to /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/delta_vision
+Installing camera_subscriber script to /home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/delta_vision
+
+Installed /home/winner_bishal/ros2_delta_ws/build/delta_vision
+running install_data
+copying package.xml -> /home/winner_bishal/ros2_delta_ws/install/delta_vision/share/delta_vision
+creating /home/winner_bishal/ros2_delta_ws/install/delta_vision/share/delta_vision/resource
+copying resource/best.pt -> /home/winner_bishal/ros2_delta_ws/install/delta_vision/share/delta_vision/resource
