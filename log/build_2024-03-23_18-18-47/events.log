@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (-) JobUnselected: {'identifier': 'delta_vision'}
+[0.000140] (delta_interfaces) JobQueued: {'identifier': 'delta_interfaces', 'dependencies': OrderedDict()}
+[0.000172] (delta_interfaces) JobStarted: {'identifier': 'delta_interfaces'}
+[0.063603] (delta_interfaces) JobProgress: {'identifier': 'delta_interfaces', 'progress': 'cmake'}
+[0.063805] (delta_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/winner_bishal/ros2_delta_ws/src/delta_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/winner_bishal/ros2_delta_ws/install/delta_interfaces'], 'cwd': '/home/winner_bishal/ros2_delta_ws/build/delta_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'winner_bishal'), ('LC_TIME', 'bho_NP'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/winner_bishal'), ('OLDPWD', '/home/winner_bishal'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bho_NP'), ('MANAGERPID', '1562'), ('SYSTEMD_EXEC_PID', '1918'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5021'), ('COLCON_PREFIX_PATH', '/home/winner_bishal/ros2_delta_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'winner_bishal'), ('JOURNAL_STREAM', '8:34375'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'winner_bishal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/winner_bishal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dellxps15ubuntu:@/tmp/.ICE-unix/1889,unix/dellxps15ubuntu:/tmp/.ICE-unix/1889'), ('INVOCATION_ID', 'dac20c9b1ca946b5b7c8b143c819593c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bho_NP'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'bho_NP'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/winner_bishal/ros2_delta_ws/install/delta_vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bho_NP'), ('TERMINATOR_UUID', 'urn:uuid:fe4a644e-a39a-404f-b3e3-d377fe2cc92f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bho_NP'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bho_NP'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/winner_bishal/ros2_delta_ws/build/delta_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/winner_bishal/ros2_delta_ws/build/delta_vision:/home/winner_bishal/ros2_delta_ws/install/delta_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bho_NP'), ('LC_PAPER', 'bho_NP'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099600] (-) TimerEvent: {}
+[0.111019] (delta_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.165742] (delta_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.171966] (delta_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199746] (-) TimerEvent: {}
+[0.236738] (delta_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.245068] (delta_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.245353] (delta_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.245796] (delta_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.249108] (delta_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299872] (-) TimerEvent: {}
+[0.321540] (delta_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.328880] (delta_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.329109] (delta_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.329507] (delta_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.331625] (delta_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400022] (-) TimerEvent: {}
+[0.458675] (delta_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500135] (-) TimerEvent: {}
+[0.532554] (delta_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.535030] (delta_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.540786] (delta_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.576066] (delta_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600233] (-) TimerEvent: {}
+[0.700444] (-) TimerEvent: {}
+[0.746275] (delta_interfaces) StderrLine: {'line': b"Error parsing '/home/winner_bishal/ros2_delta_ws/src/delta_interfaces/package.xml':\n"}
+[0.782861] (delta_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.782986] (delta_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[0.783083] (delta_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.783161] (delta_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[0.783508] (delta_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.783723] (delta_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.783793] (delta_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.783937] (delta_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.783992] (delta_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.784042] (delta_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 13, column 40\n'}
+[0.784090] (delta_interfaces) StderrLine: {'line': b'\n'}
+[0.784136] (delta_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.784182] (delta_interfaces) StderrLine: {'line': b'\n'}
+[0.784227] (delta_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.784272] (delta_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.784319] (delta_interfaces) StderrLine: {'line': b'    main()\n'}
+[0.784364] (delta_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.784409] (delta_interfaces) StderrLine: {'line': b'    raise e\n'}
+[0.784454] (delta_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.784499] (delta_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.784544] (delta_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[0.784589] (delta_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.784633] (delta_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/winner_bishal/ros2_delta_ws/src/delta_interfaces/package.xml':\n"}
+[0.784679] (delta_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.784723] (delta_interfaces) StderrLine: {'line': b'mismatched tag: line 13, column 40\n'}
+[0.794266] (delta_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.794390] (delta_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.794444] (delta_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.794664] (delta_interfaces) StderrLine: {'line': b'  /home/winner_bishal/ros2_delta_ws/src/delta_interfaces/package.xml\n'}
+[0.794725] (delta_interfaces) StderrLine: {'line': b'  /home/winner_bishal/ros2_delta_ws/build/delta_interfaces/ament_cmake_core/package.cmake)\n'}
+[0.794775] (delta_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[0.794821] (delta_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.794867] (delta_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.794912] (delta_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[0.794957] (delta_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[0.795002] (delta_interfaces) StderrLine: {'line': b'\n'}
+[0.795048] (delta_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.795093] (delta_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.795151] (delta_interfaces) StdoutLine: {'line': b'See also "/home/winner_bishal/ros2_delta_ws/build/delta_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.800521] (-) TimerEvent: {}
+[0.801005] (delta_interfaces) CommandEnded: {'returncode': 1}
+[0.801494] (delta_interfaces) JobEnded: {'identifier': 'delta_interfaces', 'rc': 1}
+[0.812283] (-) EventReactorShutdown: {}

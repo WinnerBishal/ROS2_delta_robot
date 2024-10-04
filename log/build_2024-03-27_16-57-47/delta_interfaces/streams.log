@@ -1,0 +1,242 @@
+[0.103s] Invoking command in '/home/winner_bishal/ros2_delta_ws/build/delta_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winner_bishal/ros2_delta_ws/install/delta_vision:/opt/ros/humble /usr/bin/cmake --build /home/winner_bishal/ros2_delta_ws/build/delta_interfaces -- -j12 -l12
+[0.158s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.810s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.934s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.100s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[2.039s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.952s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.082s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.082s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.209s] -- Configuring done
+[5.269s] -- Generating done
+[5.276s] -- Build files have been written to: /home/winner_bishal/ros2_delta_ws/build/delta_interfaces
+[5.331s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.358s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.392s] [  5%] Built target ament_cmake_python_copy_delta_interfaces
+[5.847s] [  5%] Built target delta_interfaces__cpp
+[5.862s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_generator_c[0m
+[5.864s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.864s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.864s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.877s] running egg_info
+[5.879s] writing delta_interfaces.egg-info/PKG-INFO
+[5.882s] writing dependency_links to delta_interfaces.egg-info/dependency_links.txt
+[5.882s] writing top-level names to delta_interfaces.egg-info/top_level.txt
+[5.885s] [ 15%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_generator_c.dir/rosidl_generator_c/delta_interfaces/msg/detail/all_detections__functions.c.o[0m
+[5.886s] [ 17%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_generator_c.dir/rosidl_generator_c/delta_interfaces/msg/detail/detection__functions.c.o[0m
+[5.889s] reading manifest file 'delta_interfaces.egg-info/SOURCES.txt'
+[5.889s] writing manifest file 'delta_interfaces.egg-info/SOURCES.txt'
+[6.029s] [ 20%] [32m[1mLinking C shared library libdelta_interfaces__rosidl_generator_c.so[0m
+[6.054s] [ 20%] Built target ament_cmake_python_build_delta_interfaces_egg
+[6.132s] [ 20%] Built target delta_interfaces__rosidl_generator_c
+[6.161s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.161s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.161s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.570s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_cpp[0m
+[6.613s] [ 30%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/delta_interfaces/msg/detection__type_support.cpp.o[0m
+[6.614s] [ 33%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/delta_interfaces/msg/all_detections__type_support.cpp.o[0m
+[6.616s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[6.628s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_introspection_cpp[0m
+[6.646s] [ 35%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/delta_interfaces/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[6.649s] [ 43%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/delta_interfaces/msg/detail/dds_fastrtps/all_detections__type_support.cpp.o[0m
+[6.649s] [ 43%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/delta_interfaces/msg/detail/detection__type_support.cpp.o[0m
+[6.649s] [ 43%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/delta_interfaces/msg/detail/all_detections__type_support.cpp.o[0m
+[6.838s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_c[0m
+[6.871s] [ 46%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/delta_interfaces/msg/all_detections__type_support.cpp.o[0m
+[6.874s] [ 48%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/delta_interfaces/msg/detection__type_support.cpp.o[0m
+[6.960s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_introspection_c[0m
+[6.982s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_fastrtps_c[0m
+[7.001s] [ 53%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/delta_interfaces/msg/detail/all_detections__type_support.c.o[0m
+[7.002s] [ 53%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/delta_interfaces/msg/detail/detection__type_support.c.o[0m
+[7.008s] [ 56%] [32m[1mLinking CXX shared library libdelta_interfaces__rosidl_typesupport_c.so[0m
+[7.047s] [ 58%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/delta_interfaces/msg/detail/detection__type_support_c.cpp.o[0m
+[7.052s] [ 61%] [32mBuilding CXX object CMakeFiles/delta_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/delta_interfaces/msg/detail/all_detections__type_support_c.cpp.o[0m
+[7.117s] [ 64%] [32m[1mLinking C shared library libdelta_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.190s] [ 64%] Built target delta_interfaces__rosidl_typesupport_c
+[7.287s] [ 64%] Built target delta_interfaces__rosidl_typesupport_introspection_c
+[7.453s] [ 66%] [32m[1mLinking CXX shared library libdelta_interfaces__rosidl_typesupport_cpp.so[0m
+[7.591s] [ 66%] Built target delta_interfaces__rosidl_typesupport_cpp
+[7.886s] [ 69%] [32m[1mLinking CXX shared library libdelta_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.991s] [ 71%] [32m[1mLinking CXX shared library libdelta_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.175s] [ 74%] [32m[1mLinking CXX shared library libdelta_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.180s] [ 74%] Built target delta_interfaces__rosidl_typesupport_introspection_cpp
+[8.278s] [ 74%] Built target delta_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.375s] [ 74%] Built target delta_interfaces__rosidl_typesupport_fastrtps_c
+[8.419s] [ 74%] Built target delta_interfaces
+[8.513s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.231s] [ 76%] Built target delta_interfaces__py
+[9.251s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_generator_py[0m
+[9.283s] [ 82%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_generator_py.dir/rosidl_generator_py/delta_interfaces/msg/_detection_s.c.o[0m
+[9.283s] [ 82%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_generator_py.dir/rosidl_generator_py/delta_interfaces/msg/_all_detections_s.c.o[0m
+[9.624s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/delta_interfaces/libdelta_interfaces__rosidl_generator_py.so[0m
+[9.759s] [ 84%] Built target delta_interfaces__rosidl_generator_py
+[9.811s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.811s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_c__pyext[0m
+[9.812s] [35m[1mConsolidate compiler generated dependencies of target delta_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[9.882s] [ 89%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/delta_interfaces/_delta_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.882s] [ 89%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/delta_interfaces/_delta_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.883s] [ 92%] [32mBuilding C object CMakeFiles/delta_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/delta_interfaces/_delta_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.232s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/delta_interfaces/delta_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.232s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/delta_interfaces/delta_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.234s] [100%] [32m[1mLinking C shared library rosidl_generator_py/delta_interfaces/delta_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.316s] [100%] Built target delta_interfaces__rosidl_typesupport_c__pyext
+[10.317s] [100%] Built target delta_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.323s] [100%] Built target delta_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.364s] Invoked command in '/home/winner_bishal/ros2_delta_ws/build/delta_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winner_bishal/ros2_delta_ws/install/delta_vision:/opt/ros/humble /usr/bin/cmake --build /home/winner_bishal/ros2_delta_ws/build/delta_interfaces -- -j12 -l12
+[10.881s] Invoking command in '/home/winner_bishal/ros2_delta_ws/build/delta_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winner_bishal/ros2_delta_ws/install/delta_vision:/opt/ros/humble /usr/bin/cmake --install /home/winner_bishal/ros2_delta_ws/build/delta_interfaces
+[10.922s] -- Install configuration: ""
+[10.923s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/ament_index/resource_index/rosidl_interfaces/delta_interfaces
+[10.923s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces
+[10.924s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg
+[10.924s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.925s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/all_detections.h
+[10.925s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail
+[10.925s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__functions.c
+[10.926s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__struct.h
+[10.926s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__functions.h
+[10.926s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__functions.c
+[10.927s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__type_support.h
+[10.927s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__functions.h
+[10.927s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__type_support.h
+[10.928s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__struct.h
+[10.928s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detection.h
+[10.929s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/environment/library_path.sh
+[10.929s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/environment/library_path.dsv
+[10.932s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_generator_c.so
+[10.936s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_generator_c.so" to ""
+[10.937s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces
+[10.938s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg
+[10.938s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail
+[10.939s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[10.939s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__rosidl_typesupport_fastrtps_c.h
+[10.940s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.940s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.943s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.944s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces
+[10.945s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg
+[10.946s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail
+[10.946s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[10.947s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__type_support.c
+[10.947s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__rosidl_typesupport_introspection_c.h
+[10.948s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__type_support.c
+[10.948s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.949s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_introspection_c.so
+[10.953s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.953s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_c.so
+[10.957s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_c.so" to ""
+[10.957s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces
+[10.958s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg
+[10.959s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail
+[10.960s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__builder.hpp
+[10.960s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__struct.hpp
+[10.961s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__struct.hpp
+[10.962s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__traits.hpp
+[10.962s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__builder.hpp
+[10.963s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__traits.hpp
+[10.963s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detection.hpp
+[10.963s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/all_detections.hpp
+[10.974s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces
+[10.976s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg
+[10.976s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail
+[10.976s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[10.977s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/dds_fastrtps
+[10.977s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__rosidl_typesupport_fastrtps_cpp.hpp
+[10.978s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.978s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.981s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.982s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces
+[10.982s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg
+[10.983s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail
+[10.984s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__rosidl_typesupport_introspection_cpp.hpp
+[10.984s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__type_support.cpp
+[10.984s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/all_detections__type_support.cpp
+[10.985s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/include/delta_interfaces/delta_interfaces/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[10.986s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.988s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.990s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_cpp.so
+[10.992s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.993s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/environment/pythonpath.sh
+[10.993s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/environment/pythonpath.dsv
+[10.994s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces-0.0.0-py3.10.egg-info
+[10.994s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.995s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.996s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.996s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.997s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces
+[10.997s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.998s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg
+[10.999s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg/_detection.py
+[10.999s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg/_detection_s.c
+[11.000s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg/__init__.py
+[11.001s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg/_all_detections_s.c
+[11.001s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg/_all_detections.py
+[11.002s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/_delta_interfaces_s.ep.rosidl_typesupport_c.c
+[11.003s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/_delta_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.004s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/libdelta_interfaces__rosidl_generator_py.so
+[11.005s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.006s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.007s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/_delta_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.007s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/__init__.py
+[11.220s] Listing '/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces'...
+[11.221s] Compiling '/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/__init__.py'...
+[11.221s] Listing '/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg'...
+[11.222s] Compiling '/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg/__init__.py'...
+[11.222s] Compiling '/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg/_all_detections.py'...
+[11.223s] Compiling '/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/msg/_detection.py'...
+[11.262s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.266s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.267s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.270s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.272s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.275s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/local/lib/python3.10/dist-packages/delta_interfaces/delta_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.276s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_generator_py.so
+[11.279s] -- Set runtime path of "/home/winner_bishal/ros2_delta_ws/install/delta_interfaces/lib/libdelta_interfaces__rosidl_generator_py.so" to ""
+[11.279s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/msg/Detection.idl
+[11.280s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/msg/AllDetections.idl
+[11.281s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/msg/Detection.msg
+[11.282s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/msg/AllDetections.msg
+[11.283s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/ament_index/resource_index/package_run_dependencies/delta_interfaces
+[11.284s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/ament_index/resource_index/parent_prefix_path/delta_interfaces
+[11.284s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/environment/ament_prefix_path.sh
+[11.285s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/environment/ament_prefix_path.dsv
+[11.286s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/environment/path.sh
+[11.286s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/environment/path.dsv
+[11.287s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/local_setup.bash
+[11.287s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/local_setup.sh
+[11.288s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/local_setup.zsh
+[11.288s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/local_setup.dsv
+[11.289s] -- Installing: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/package.dsv
+[11.289s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/ament_index/resource_index/packages/delta_interfaces
+[11.290s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_generator_cExport.cmake
+[11.291s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.292s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.292s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.293s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.293s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.294s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfaces__rosidl_typesupport_cExport.cmake
+[11.294s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.295s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_generator_cppExport.cmake
+[11.295s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.296s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.296s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.297s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.298s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfaces__rosidl_typesupport_cppExport.cmake
+[11.299s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.300s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_generator_pyExport.cmake
+[11.300s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/export_delta_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.301s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.302s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.302s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.302s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.302s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.303s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.303s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.303s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfacesConfig.cmake
+[11.304s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/cmake/delta_interfacesConfig-version.cmake
+[11.304s] -- Up-to-date: /home/winner_bishal/ros2_delta_ws/install/delta_interfaces/share/delta_interfaces/package.xml
+[11.321s] Invoked command in '/home/winner_bishal/ros2_delta_ws/build/delta_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winner_bishal/ros2_delta_ws/install/delta_vision:/opt/ros/humble /usr/bin/cmake --install /home/winner_bishal/ros2_delta_ws/build/delta_interfaces
