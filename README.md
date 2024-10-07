@@ -1,6 +1,6 @@
 # ROS2_delta_robot
 This repo contains the ROS2 workspace that controls autonomous operation of a vision integrated Delta Robot.
-
+For more info on the Delta Robot project visit : https://github.com/WinnerBishal/Delta-Robot/tree/master
 ## The rqt graph during the autonomous operation is shown below:
 ![image](https://github.com/user-attachments/assets/67073603-3d50-43e5-a166-5055eef936c3)
 
